@@ -1,5 +1,6 @@
 # quicklog
 Quick and easy logger for Node
+[![Coverage Status](https://coveralls.io/repos/github/bevinh/quicklog/badge.svg?branch=master)](https://coveralls.io/github/bevinh/quicklog?branch=master)
 
 ##Installation
 'npm install quicklog-easy'
