@@ -2,7 +2,7 @@
 Quick and easy logger for Node
 
 ##Installation
-'npm install quicklog'
+'npm install quicklog-easy'
 
 ## Usage
 Include at the top of your file 'var quickLog = require('../quickLog.js').quickLog;'
