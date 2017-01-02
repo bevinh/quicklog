@@ -1,0 +1,19 @@
+{
+  "name": "quicklog",
+  "version": "1.0.0",
+  "description": "Quick Logging Utility designed to append to a file of your specification",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "log",
+    "logging",
+    "easy"
+  ],
+  "author": "Bevin Hernandez",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
