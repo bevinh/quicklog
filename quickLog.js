@@ -1,7 +1,7 @@
 
 var fs = require('fs');
 
-exports.quickLog = function (path, e) {
+function  quickLog (path, e) {
             //write the function to log any errors to the file you specify in the path variable
             function quickLog (path, e) {
                 var d = new Date();
@@ -11,11 +11,10 @@ exports.quickLog = function (path, e) {
                 fs.appendFileSync(path, eWrite, encoding = 'utf8');
 
             }
-            return quickLog;
+            return quickLog(path, e);
 };
 
 
-
-
+module.exports = quickLog;
 
 
