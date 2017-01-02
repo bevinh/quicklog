@@ -1,5 +1,5 @@
 {
-  "name": "quicklog",
+  "name": "quicklog-easy",
   "version": "1.0.0",
   "description": "Quick Logging Utility designed to append to a file of your specification",
   "main": "quickLog.js",
