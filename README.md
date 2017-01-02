@@ -1,5 +1,6 @@
 # quicklog
 Quick and easy logger for Node
+[![Build Status](https://travis-ci.org/bevinh/quicklog.svg?branch=master)](https://travis-ci.org/bevinh/quicklog)
 [![Coverage Status](https://coveralls.io/repos/github/bevinh/quicklog/badge.svg?branch=master)](https://coveralls.io/github/bevinh/quicklog?branch=master)
 
 ##Installation
