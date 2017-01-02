@@ -4,7 +4,8 @@
   "description": "Quick Logging Utility designed to append to a file of your specification",
   "main": "quickLog.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "keywords": [
     "log",
@@ -24,6 +25,8 @@
     "fs": "0.0.1-security"
   },
   "devDependencies": {
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
   }
 }
