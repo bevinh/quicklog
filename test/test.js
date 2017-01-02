@@ -1,4 +1,4 @@
-var quickLog = require('../app.js').quickLog;  // our module
+var quickLog = require('../quickLog.js').quickLog;  // our module
 
 describe('Log', function() {
     describe('#quickLog()', function() {
