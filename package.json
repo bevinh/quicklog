@@ -1,10 +1,10 @@
 {
-  "name": "quickLog",
+  "name": "quicklog",
   "version": "1.0.0",
   "description": "Quick Logging Utility designed to append to a file of your specification",
   "main": "quickLog.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "keywords": [
     "log",
@@ -13,7 +13,17 @@
   ],
   "author": "Bevin Hernandez",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevinh/quicklog"
+  },
+  "bugs": {
+    "url": "https://github.com/bevinh/quicklog/issues"
+  },
   "dependencies": {
     "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }
